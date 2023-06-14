@@ -72,7 +72,7 @@ body {
 /*FIM ÁREA DO CABEÇALHO*/
 
 /*INÍCIO ÁREA DA LOGO*/
-.principal div{
+.principal div{ /*ALINHANDO A LOGO JUNTO COM O INPUT*/
     display: flex;
     justify-content: center;
     
@@ -81,21 +81,34 @@ body {
 .logo-google {
     margin-bottom: 28px;
 }
-.areapesquisa {
-    position: relative;;
+
+.areapesquisa { /*ÁREA DA IMAGEN DE LUPINHA*/
+    position: relative;
+    align-items: center;
 }
-#pesquisa  {
+
+#pesquisa { /*ALINHANDO A IMAGEM DA LUPINHA DENTRO DO INPUT*/
+    margin-left:-544px;
     position: absolute;
     height: 17px;
     width: 17px;
 }
+#teclado { /*ALINHANDO IMAGEM DO TECLADO DENTRO DO INPUT*/
+    position: absolute;
+    height: 26px;
+    width: 26px;
+}
 
 .areapesquisa input {
     height: 48px;
-    width: 587px;
+    width: 586px;
     border: 1px solid #dfe1e5;
     border-radius: 50px;
 }
 
-
+.botoes div{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: green;
+}
 /*FIM ÁREA DA LOGO*/
