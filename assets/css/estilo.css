@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.cabecalho {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.cabecalho a {
+    color: #212121;
+}
+
+.principal {
+    flex: 1 1 0;
+}
+
+#botao-imagens{
+    margin-bottom: 3px;
+}
+
+#botao-imagens a{
+    margin-left: 13px;
+    text-decoration: none;
+    
+}
+
+#botao-gmail {
+    margin-bottom: 3px;
+}
+
+#botao-gmail a{
+    text-decoration: none;
+}
+
+.botao-apps {
+    margin-left: 33px;
+    margin-right: 23px;
+}
+.botao-apps div{
+    display: flex;
+}
+
+.botao-bolinha div {
+    height: 4px;
+    width: 4px;
+    border-radius: 50px;
+    background-color: #5f6368;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    
+}
+.gmail-img img{
+    border-radius: 50px;
+    width: 32px;
+    height: 33px;
+    margin-right: 10px;
+}
+
