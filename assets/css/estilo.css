@@ -6,7 +6,7 @@ body {
     font-family: Arial;
     font-size: 13px;
 }
-
+/*INÍCIO ÁREA DO CABEÇALHO*/
 .container{
     min-height: 100vh;
     display: flex;
@@ -69,3 +69,33 @@ body {
     margin-right: 10px;
 }
 
+/*FIM ÁREA DO CABEÇALHO*/
+
+/*INÍCIO ÁREA DA LOGO*/
+.principal div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-google {
+    margin-bottom: 28px;
+}
+.areapesquisa {
+    position: relative;;
+}
+#pesquisa  {
+    position: absolute;
+    height: 17px;
+    width: 17px;
+}
+
+.areapesquisa input {
+    height: 48px;
+    width: 587px;
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+}
+
+
+/*FIM ÁREA DA LOGO*/
