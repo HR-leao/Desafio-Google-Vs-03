@@ -94,19 +94,31 @@ body {
     width: 17px;
 }
 #teclado { /*ALINHANDO IMAGEM DO TECLADO DENTRO DO INPUT*/
+    margin-left: 380px;
     position: absolute;
     height: 26px;
     width: 26px;
 }
+#microfone { /*ALINHANDO MICROFONE DENTRO DO INPUT*/
+    margin-left: 450px;
+    position: absolute;
+    width: 13px;
+    height: 19px;
+}
 
-.areapesquisa input {
+#camera {/*ALINHANDO CÂMERA DENTRO DO INPUT*/
+    position: absolute;
+    margin-left: 520px;
+    width: 22px;
+}
+.areapesquisa input { /*ALINHANDO INPUT*/
     height: 48px;
     width: 586px;
     border: 1px solid #dfe1e5;
     border-radius: 50px;
 }
 
-.botoes div{
+.botoes div{ /*ALINHANDO BOTÕES*/
     margin-left: 10px;
     padding: 10px;
     background-color: green;
