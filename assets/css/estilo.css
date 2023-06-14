@@ -5,18 +5,25 @@
 body {
     font-family: Arial;
     font-size: 13px;
+    margin: 0px;
+    margin-right: 2px;
+    padding-top: 10px;
+    
 }
 /*INÍCIO ÁREA DO CABEÇALHO*/
 .container{
-    min-height: 100vh;
+    min-height: 97vh;
     display: flex;
     flex-direction: column;
+    
+    
 
 }
 .cabecalho {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 5px;
     
 }
 .cabecalho a {
@@ -66,12 +73,12 @@ body {
     border-radius: 50px;
     width: 32px;
     height: 33px;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 /*FIM ÁREA DO CABEÇALHO*/
 
-/*INÍCIO ÁREA DA LOGO*/
+/*INÍCIO ÁREA DA LOGO E INPUT*/
 .principal div{ /*ALINHANDO A LOGO JUNTO COM O INPUT*/
     display: flex;
     justify-content: center;
@@ -116,11 +123,38 @@ body {
     width: 586px;
     border: 1px solid #dfe1e5;
     border-radius: 50px;
-}
+}/*FIM ÁREA DA LOGO E INPUT*/
 
 .botoes div{ /*ALINHANDO BOTÕES*/
+    margin-top: 30px;
     margin-left: 10px;
-    padding: 10px;
-    background-color: green;
+    padding: 14px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    width: 141px;
+    height: 35px;
 }
-/*FIM ÁREA DA LOGO*/
+
+.pais {
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #f2f2f2;
+    padding-left: 31px;
+    font-size: 14.5px;
+}
+.sobre {
+    color: #70757a;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 37px;
+    font-size: 14.5px;
+    background-color: #f2f2f2;
+    
+}
+.sobre div {
+    display: flex;
+    margin-right: 30px;
+}
