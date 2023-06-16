@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 3px;
     
 }
 .cabecalho a {
@@ -39,7 +39,7 @@ body {
 }
 
 #botao-imagens a{
-    margin-left: 13px;
+    margin-left: 15px;
     text-decoration: none;
     
 }
@@ -53,8 +53,8 @@ body {
 }
 
 .botao-apps {
-    margin-left: 33px;
-    margin-right: 23px;
+    margin-left: 30.8px;
+    margin-right: 22px;
 }
 .botao-apps div{
     display: flex;
@@ -72,8 +72,9 @@ body {
 .gmail-img img{
     border-radius: 50px;
     width: 32px;
-    height: 33px;
-    margin-right: 15px;
+    height: 32px;
+    margin-right: 16px;
+    margin-top: 1px;
 }
 
 /*FIM ÁREA DO CABEÇALHO*/
@@ -86,7 +87,8 @@ body {
 }
 
 .logo-google {
-    margin-bottom: 28px;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 .areapesquisa { /*ÁREA DA IMAGEN DE LUPINHA*/
@@ -95,71 +97,93 @@ body {
 }
 
 #pesquisa { /*ALINHANDO A IMAGEM DA LUPINHA DENTRO DO INPUT*/
-    margin-left:-544px;
+    margin-left:-531px;
     position: absolute;
-    height: 17px;
-    width: 17px;
+    height: 19px;
+    width: 19px;
 }
 #teclado { /*ALINHANDO IMAGEM DO TECLADO DENTRO DO INPUT*/
-    margin-left: 380px;
+    margin-left: 369px;
+    margin-bottom: 1px;
     position: absolute;
     height: 26px;
-    width: 26px;
+    width: 27px;
 }
 #microfone { /*ALINHANDO MICROFONE DENTRO DO INPUT*/
-    margin-left: 450px;
+    margin-left: 448px;
     position: absolute;
-    width: 13px;
-    height: 19px;
+    width: 14px;
+    height: 20px;
+    margin-bottom: 3px;
 }
 
 #camera {/*ALINHANDO CÂMERA DENTRO DO INPUT*/
     position: absolute;
-    margin-left: 520px;
-    width: 22px;
+    margin-left: 527px;
+    margin-bottom: 3px;
+    width: 24px;
 }
 .areapesquisa input { /*ALINHANDO INPUT*/
-    height: 48px;
+    height: 49px;
     width: 586px;
     border: 1px solid #dfe1e5;
     border-radius: 50px;
     padding-left: 40px;
+
+
 }/*FIM ÁREA DA LOGO E INPUT*/
 
 input:focus {
     outline-color: #f2f2f2;
 }
-
+.botoes{
+    margin-right: 5px;
+}
 .botoes div{ /*ALINHANDO BOTÕES*/
-    margin-top: 30px;
+    margin-top: 28px;
     margin-left: 10px;
-    padding: 14px;
+    padding-top: 10px;
+    margin-right: 2px;
+    padding-bottom: 10px;
     color: #3c4043;
     background-color: #f8f9fa;
-    width: 141px;
-    height: 35px;
+    width: 137px;
+    height: 36px;
+    font-size: 14px;
 }
+
+
 /*FOOTER*/
 .pais {
     border-bottom: 1px solid #dadce0;
     color: #70757a;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #f2f2f2;
-    padding-left: 31px;
-    font-size: 14.5px;
+    padding-left: 30px;
+    font-size: 15px;
 }
 .sobre {
     color: #70757a;
-    padding-top: 16px;
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
-    padding-left: 37px;
-    font-size: 14.5px;
+    padding-left: 35px;
+    font-size: 14px;
     background-color: #f2f2f2;
     
 }
 .sobre div {
     display: flex;
     margin-right: 30px;
+    padding-bottom: 3px;
 }
+.final2 div{
+    margin-right: 3px;
+
+}
+#termos {
+    margin-right: 30px;
+    margin-left: 27px;
+}
+
