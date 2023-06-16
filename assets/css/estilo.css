@@ -105,14 +105,14 @@ body {
     width: 19px;
 }
 #teclado { /*ALINHANDO IMAGEM DO TECLADO DENTRO DO INPUT*/
-    margin-left: 369px;
+    margin-left: 367px;
     margin-bottom: 1px;
     position: absolute;
-    height: 26px;
+    height: 27px;
     width: 27px;
 }
 #microfone { /*ALINHANDO MICROFONE DENTRO DO INPUT*/
-    margin-left: 448px;
+    margin-left: 445px;
     position: absolute;
     width: 14px;
     height: 20px;
@@ -121,7 +121,7 @@ body {
 
 #camera {/*ALINHANDO CÂMERA DENTRO DO INPUT*/
     position: absolute;
-    margin-left: 527px;
+    margin-left: 526px;
     margin-bottom: 3px;
     width: 24px;
 }
